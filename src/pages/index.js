@@ -47,7 +47,7 @@ export default function Home() {
                 then: number()
                   .required()
                   .min(
-                    1_000_000,
+                    1000000,
                     'Because you said you are a millionaire you need to have 1 million'
                   ),
                 otherwise: number().required(),
